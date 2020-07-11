@@ -159,7 +159,7 @@ public class Main {
                 List<String> tmpList = new ArrayList<String>();
                 /***
                  *  Issue: 데이터 중 아래와 같은 것이 있으면 한 컬럼의 데이터가 여러 컬럼으로 분해됨
-                 *  "Lamivudine 10mg/ml,  oral solution w/syringe,  Bottle,  240 ml"
+                 *  "AAA","Lamivudine 10mg/ml, oral solution w/syringe, Bottle, 240 ml","BBB"
                  */
 //                String[] array = line.split(",");
                 String[] array = line.split(",(?=(?:[^\"]*\"[^\"]*\")*(?![^\"]*\"))");
